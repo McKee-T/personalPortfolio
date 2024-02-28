@@ -24,6 +24,14 @@ nav {
     margin-left: 20px;
 }
 
+.top-right-image {
+    position: absolute; /* Positions the image out of the normal document flow */
+    top: 60px; /* Adjust this value based on the height of your navbar */
+    right: 0; /* Aligns the image to the right edge of the viewport */
+    max-width: 200px; /* Optional: Adjusts the image size. Set this based on your preference */
+    max-height: 200px; /* Optional: Adjusts the image size. Set this based on your preference */
+}
+
 #about {
     text-align: left; /* Align text to the left */
     margin: 0; /* Remove auto margin */
@@ -32,7 +40,9 @@ nav {
 }
 
 #about h2, #about p {
+    max-width: 70%;
     margin-left: 20px; /* Add some left margin for spacing */
+    margin-right: 20px;
 }
 
 section {
