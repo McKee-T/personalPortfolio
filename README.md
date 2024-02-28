@@ -24,6 +24,10 @@ This project is constantly being updated and edited.
 
 N/A
 
+## Author
+
+All code by me.
+
 ## License
 
 Using MIT Licensing.

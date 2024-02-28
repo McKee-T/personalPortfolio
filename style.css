@@ -7,8 +7,7 @@ body, html {
 
 nav {
     display: flex;
-    justify-content: space-between; /* Keeps the nav elements spaced out */
-    align-items: center;
+    justify-content: space-between; 
     background-color: #342683;
     color: #fff;
     padding: 0 20px;
@@ -25,67 +24,67 @@ nav {
 }
 
 .top-right-image {
-    position: absolute; /* Positions the image out of the normal document flow */
-    top: 60px; /* Adjust this value based on the height of your navbar */
-    right: 0; /* Aligns the image to the right edge of the viewport */
-    max-width: 200px; /* Optional: Adjusts the image size. Set this based on your preference */
-    max-height: 200px; /* Optional: Adjusts the image size. Set this based on your preference */
+    position: absolute; 
+    top: 60px; 
+    right: 0; 
+    max-width: 200px; 
+    max-height: 200px; 
 }
 
 #about {
-    text-align: left; /* Align text to the left */
-    margin: 0; /* Remove auto margin */
-    width: 100%; /* Set width to 100% for full-width */
+    text-align: left; 
+    margin: 0; 
+    width: 100%; 
     padding: 20px;
 }
 
 #about h2, #about p {
     max-width: 70%;
-    margin-left: 20px; /* Add some left margin for spacing */
+    margin-left: 20px; 
     margin-right: 20px;
 }
 
 section {
-    text-align: left; /* Align section content to the left */
+    text-align: left; 
     margin: 15px;
     padding: 20px;
 }
 
 .project-tile {
     position: relative;
-    display: block; /* Keeps each tile on its own line */
-    margin: 15px 0; /* Only top and bottom margin */
-    text-align: left; /* Align text to the left */
-    max-width: 200px; /* Maintain max width for consistency */
+    display: block; 
+    margin: 15px 0; 
+    text-align: left; 
+    max-width: 200px; 
 }
 
 .project-tile img {
-    width: 100%; /* Adjust image width */
-    height: auto; /* Adjust image height */
+    width: 100%; 
+    height: auto; 
     border-radius: 5px;
-    padding-left: 0; /* Remove padding */
+    padding-left: 0; 
 }
 
 .project-name, .project-name1 {
     position: absolute;
     bottom: 10px;
-    left: 10px; /* Align titles to the left edge of the tile */
-    transform: none; /* Remove transform */
+    left: 10px; 
+    transform: none; 
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     border-radius: 3px;
-    width: calc(100% - 50px); /* Adjust width to fit within the tile */
+    width: calc(100% - 50px); 
     box-sizing: border-box;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 #projects .project-tile:first-of-type {
-    max-width: 240px; /* Makes the first tile larger */
-    transform: scale(1.1); /* Optionally scale up the tile a bit */
-    margin-bottom: 20px; /* Adds more space below the first tile */
+    max-width: 240px; 
+    transform: scale(1.1); 
+    margin-bottom: 20px; 
 }
 
 #projects .project-tile {
-    margin: 15px 0; /* Adjust margin to only top and bottom */
+    margin: 15px 0; 
 }
